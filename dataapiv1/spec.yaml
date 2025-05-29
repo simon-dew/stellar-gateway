@@ -884,6 +884,16 @@ paths:
           $ref: '#/components/responses/ServiceUnavailable' 
         '504':
           $ref: '#/components/responses/GatewayTimeout'
+  '/_p/query/query/service':
+    $ref: 'https://raw.githubusercontent.com/couchbaselabs/cb-swagger/refs/heads/AV-102698-unified/src/query-service/swagger/query-service.yaml#/paths/~1query~1service'
+  '/_p/fts/api/index/{INDEX_NAME}/count':
+    $ref: 'https://raw.githubusercontent.com/couchbaselabs/cb-swagger/refs/heads/AV-102698-unified/src/search-index/swagger/search-index.yaml#/paths/~1api~1index~1{INDEX_NAME}~1count'
+  '/_p/fts/api/index/{INDEX_NAME}/query':
+    $ref: 'https://raw.githubusercontent.com/couchbaselabs/cb-swagger/refs/heads/AV-102698-unified/src/search-index/swagger/search-index.yaml#/paths/~1api~1index~1{INDEX_NAME}~1query'
+  '/_p/fts/api/bucket/{BUCKET_NAME}/scope/{SCOPE_NAME}/index/{INDEX_NAME}/pindexLookup':
+    $ref: 'https://raw.githubusercontent.com/couchbaselabs/cb-swagger/refs/heads/AV-102698-unified/src/search-index/swagger/search-index.yaml#/paths/~1api~1bucket~1{BUCKET_NAME}~1scope~1{SCOPE_NAME}~1index~1{INDEX_NAME}~1pindexLookup'
+  '/_p/fts/api/bucket/{BUCKET_NAME}/scope/{SCOPE_NAME}/index/{INDEX_NAME}/query':
+    $ref: 'https://raw.githubusercontent.com/couchbaselabs/cb-swagger/refs/heads/AV-102698-unified/src/search-index/swagger/search-index.yaml#/paths/~1api~1bucket~1{BUCKET_NAME}~1scope~1{SCOPE_NAME}~1index~1{INDEX_NAME}~1query'
 components:
   securitySchemes:
     BasicAuth:
