@@ -23,6 +23,21 @@ tags:
     description: Operations that apply to document expiry.
   - name: Sub-Document Operations
     description: Lookup and mutate operations for fields within a document.
+x-tagGroups:
+  - name: Data API
+    tags:
+      - Tools
+      - Single Document Operations
+      - Binary Operations
+      - Locking Operations
+      - Expiry Operations
+      - Sub-Document Operations
+  - name: Query Service APIs
+    tags:
+      - Default
+  - name: Search Service APIs
+    tags:
+      - Querying
 paths:
   '/v1/callerIdentity':
     parameters:
