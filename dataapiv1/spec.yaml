@@ -23,6 +23,11 @@ tags:
     description: Operations that apply to document expiry.
   - name: Sub-Document Operations
     description: Lookup and mutate operations for fields within a document.
+# Tag descriptions for passthrough APIs
+  - name: Querying
+    description: Use the following endpoints to query the contents of a Search index.
+  - name: Default
+    description: Use the following endpoints to run SQL++ queries and set request-level parameters.
 x-tagGroups:
   - name: Data API
     tags:
