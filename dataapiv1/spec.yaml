@@ -32,10 +32,10 @@ x-tagGroups:
       - Locking Operations
       - Expiry Operations
       - Sub-Document Operations
-  - name: Query Service APIs
+  - name: Query Service
     tags:
       - Default
-  - name: Search Service APIs
+  - name: Search Service
     tags:
       - Querying
 paths:
